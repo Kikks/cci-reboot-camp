@@ -67,7 +67,7 @@ const Header = () => {
 						22
 					</span>
 
-					<figure className='absolute bottom-[21%] right-[7%] z-50 aspect-[193/223] w-[30vw] max-w-[200px] md:bottom-[27%] md:right-[7%] md:w-[20vw] md:max-w-[180px] lg:bottom-[31%] lg:right-[7%]'>
+					<figure className='angle absolute bottom-[21%] right-[7%] z-50 aspect-[193/223] w-[30vw] max-w-[200px] md:bottom-[27%] md:right-[7%] md:w-[20vw] md:max-w-[180px] lg:bottom-[28%] lg:right-[7%]'>
 						<img
 							src='/images/angle.png'
 							alt=''

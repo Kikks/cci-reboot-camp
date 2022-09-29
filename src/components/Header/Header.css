@@ -6,3 +6,9 @@
 .effect {
 	mix-blend-mode: exclusion;
 }
+
+@media screen and (min-height: 800px) {
+	.angle {
+		bottom: -35%;
+	}
+}
