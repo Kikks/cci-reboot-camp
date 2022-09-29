@@ -1,0 +1,8 @@
+.gradient-bg {
+	background-image: url("../../../public/images/header-gradient.png");
+	background-size: cover;
+}
+
+.effect {
+	mix-blend-mode: exclusion;
+}

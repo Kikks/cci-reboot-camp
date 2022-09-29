@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+	background: #fff;
+}
+
+body {
+	@apply font-expose text-[#6C6C6C];
+}
