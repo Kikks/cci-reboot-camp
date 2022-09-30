@@ -91,7 +91,7 @@ const Gallery = () => {
 				<div className='relative md:mx-auto md:w-max'>
 					<h1 className='text-center font-quilon text-[2em] leading-10 text-white lg:text-5xl xl:text-[3.25em]'>
 						The Reboot Camp{" "}
-						<span className={`${bigScreen ? "inline" : "block"}`}>2022</span>
+						<span className={`${bigScreen ? "inline" : "block"}`}>2021</span>
 					</h1>
 					<span
 						className={`absolute ${bigScreen ? `right-[0]` : `right-[35%]`}`}
