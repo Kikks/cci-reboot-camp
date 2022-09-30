@@ -3,6 +3,9 @@ import Countdown from "./components/Countdown";
 import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Register from "./components/Register/Register";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -12,8 +15,8 @@ function App() {
         <Countdown />
         <Gallery />
         <Register />
-        {/* <Experience /> ----------- Victor */}
-        {/* <Footer /> --------------- Victor*/}
+        <Experience />
+				<Footer />
       </main>
     </div>
   );

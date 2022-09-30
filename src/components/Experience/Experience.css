@@ -1,0 +1,14 @@
+.experience-bg {
+  background-image: url("../../../public/images/experience-background.png");
+  position: cover;
+}
+
+.experience-title {
+  font-family: "Quilon Variable";
+  font-style: normal;
+  font-weight: bold;
+  background: linear-gradient(to right, #21409a, #ed1c24, #fff200, #2abaa7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
