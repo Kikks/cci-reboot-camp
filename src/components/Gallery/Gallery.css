@@ -1,0 +1,130 @@
+.gallery-gradient {
+	background-image: url("../../../public/images/gallery-gradient.png");
+	height: max-content;
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 4em;
+}
+
+.grid-block {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	margin-top: 1em;
+	gap: 0.8em;
+}
+
+.grid-stack {
+	display: grid;
+	grid-template-columns: repeat(23, minmax(42vw, 180px));
+}
+
+@media screen and (min-width: 500px) {
+	.grid-stack {
+		display: grid;
+		grid-template-columns: repeat(23, minmax(35vw, 220px));
+	}
+}
+
+@media screen and (min-width: 668px) {
+	.grid-stack {
+		display: grid;
+		grid-template-columns: repeat(23, minmax(28vw, 220px));
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.grid-stack {
+		display: grid;
+		grid-template-columns: repeat(23, minmax(17vw, 230px));
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.grid-stack {
+		display: grid;
+		grid-template-columns: repeat(23, minmax(14vw, 230px));
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.grid-stack {
+		display: grid;
+		grid-template-columns: repeat(23, minmax(12vw, 230px));
+	}
+}
+
+.play {
+	position: absolute;
+	bottom: 1.5em;
+	right: 1.5em;
+	width: 39.73px;
+	height: 39.73px;
+	background: linear-gradient(
+		156.92deg,
+		rgba(255, 255, 255, 0.5) -12.17%,
+		rgba(255, 255, 255, 0.2) 85.06%
+	);
+	box-shadow: 0px 2.20713px 13.2428px -0.551783px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(2.75891px);
+	border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+	.gallery-gradient {
+		background-image: url("../../../public/images/gallery-gradient-big.png");
+	}
+
+	.grid-block {
+		gap: 1em;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.grid-block {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		margin-top: 0;
+	}
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+#slider-container,
+#images {
+	scroll-behavior: smooth;
+}
+
+.full-screen-image {
+	display: block;
+	max-width: 90%;
+	max-height: 80%;
+	width: auto;
+	height: auto;
+	animation-delay: 200ms;
+	animation-duration: 500ms;
+	animation-name: zoom-in;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	scale: 0;
+}
+
+@keyframes zoom-in {
+	from {
+		opacity: 0;
+		scale: 0;
+	}
+
+	to {
+		opacity: 1;
+		scale: 1;
+	}
+}

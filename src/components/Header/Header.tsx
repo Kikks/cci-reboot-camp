@@ -21,8 +21,12 @@ const Header = () => {
 				<nav className='flex w-full items-center justify-between p-5 pb-10'>
 					<figure className='aspect-[157/49] w-[11.5vw] min-w-[105px] max-w-[200px]'>
 						<LazyLoadImage
-							src='/images/logo.svg'
-							className='h-full w-full object-contain'
+							src={
+								smallScreen
+									? "/images/logo-small-screen.svg"
+									: "/images/logo.svg"
+							}
+							className='undraggable h-full w-full object-contain'
 						/>
 					</figure>
 
@@ -71,7 +75,7 @@ const Header = () => {
 						<img
 							src='/images/angle.png'
 							alt=''
-							className='h-full w-full object-contain'
+							className='undraggable h-full w-full object-contain'
 						/>
 					</figure>
 				</div>
@@ -97,7 +101,7 @@ const Header = () => {
 					<img
 						src={smallScreen ? "/images/effect-2.png" : "/images/effect.png"}
 						alt=''
-						className='h-full w-full object-contain'
+						className='undraggable h-full w-full object-contain'
 					/>
 				</figure>
 
@@ -107,7 +111,7 @@ const Header = () => {
 							mediumScreen ? "/images/pst-iren.png" : "/images/pst-iren-2.png"
 						}
 						alt=''
-						className='h-full w-full object-contain'
+						className='undraggable h-full w-full object-contain'
 					/>
 				</figure>
 
@@ -115,7 +119,7 @@ const Header = () => {
 					<img
 						src='/images/Blur.png'
 						alt=''
-						className='h-full w-full object-contain'
+						className='undraggable h-full w-full object-contain'
 					/>
 				</figure>
 
@@ -123,7 +127,7 @@ const Header = () => {
 					<img
 						src='/images/Blur2.png'
 						alt=''
-						className='h-full w-full object-contain'
+						className='undraggable h-full w-full object-contain'
 					/>
 				</figure>
 			</header>

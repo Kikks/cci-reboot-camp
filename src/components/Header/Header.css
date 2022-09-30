@@ -3,6 +3,13 @@
 	background-size: cover;
 }
 
+@media screen and (max-width: 600px) {
+	.gradient-bg {
+		background-image: url("../../../public/images/header-gradient-small-screen.png");
+		background-size: cover;
+	}
+}
+
 .effect {
 	mix-blend-mode: exclusion;
 }
