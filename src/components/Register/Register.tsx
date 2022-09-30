@@ -38,14 +38,18 @@ const Register = () => {
             </p>
           </div>
 
-          <button className="mt-6 flex w-full items-center justify-center rounded-full bg-primary-main py-3 px-7 text-[18px] font-medium text-white md:mx-auto md:w-auto md:text-xl">
+          <button className="mt-6 flex w-full items-center justify-center rounded-full bg-primary-main py-3 px-7 text-[18px] font-medium text-white md:mx-auto md:w-auto md:text-[20px] lg:text-[28px]">
             <span>Register & Book Accomodation</span>
             <Icon icon="akar-icons:arrow-right" className="ml-2 text-xl md:text-3xl" />
           </button>
 
           <div className="relative hidden py-8 md:block">
-            <span className="absolute left-[5%] -top-[20%] h-[39px] w-[31px] md:h-[86px] md:w-[67px]">{Star6}</span>
-            <span className="absolute left-0 h-[23px] w-[18px] md:h-[50px] md:w-[40px]">{Star5}</span>
+            <span className="absolute left-[5%] -top-[20%] h-[39px] w-[31px] md:h-[86px] md:w-[67px]">
+              {Star6}
+            </span>
+            <span className="absolute left-0 h-[23px] w-[18px] md:h-[50px] md:w-[40px]">
+              {Star5}
+            </span>
           </div>
         </div>
       </div>

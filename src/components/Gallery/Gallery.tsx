@@ -29,7 +29,7 @@ const Gallery = () => {
       </div>
 
       <div className="relative md:mx-auto md:w-max">
-        <h1 className="text-center font-quilon text-[2em] leading-10 text-white">
+        <h1 className="text-center font-quilon text-[2em] leading-10 text-white lg:text-5xl xl:text-[3.25em]">
           The Reboot Camp <span className={`${bigScreen ? "inline" : "block"}`}>2022</span>
         </h1>
         <span className={`absolute ${bigScreen ? `right-[0]` : `right-[35%]`}`}>{Dash}</span>
@@ -38,10 +38,14 @@ const Gallery = () => {
         </span>
       </div>
 
-      <div className="mt-10 max-w-[1376px] lg:mx-auto lg:mt-12 lg:flex lg:items-center lg:gap-[1em] xl:gap-[1.3em]">
+      <div className="mt-10 md:mx-auto md:max-w-[704px] md:px-16 lg:mx-auto lg:mt-12 lg:flex lg:max-w-[1376px] lg:items-center lg:gap-[1em] xl:gap-[1.3em]">
         <div className="relative">
           {bigScreen ? (
-            <img src="/images/galleryBig1.png" alt="gallery1" className="block h-full w-full" />
+            <img
+              src="/images/galleryBig1.png"
+              alt="gallery1"
+              className="block h-full w-full md:mb-[2em] lg:mb-0"
+            />
           ) : (
             <img src="/images/gallery1.png" alt="gallery1" className="block h-full w-full" />
           )}

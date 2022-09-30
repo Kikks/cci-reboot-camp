@@ -33,12 +33,15 @@
   .gallery-gradient {
     background-image: url("../../../public/images/gallery-gradient-big.png");
   }
+
+  .grid-block {
+    gap: 1em;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   .grid-block {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1em;
     margin-top: 0;
   }
 }
