@@ -1,6 +1,8 @@
 // components
 import Countdown from "./components/Countdown";
 import Header from "./components/Header";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -10,8 +12,8 @@ function App() {
 				<Countdown />
 				{/* <Gallery /> -------------- Deji */}
 				{/* <Register /> ------------- Deji */}
-				{/* <Experience /> ----------- Victor */}
-				{/* <Footer /> --------------- Victor*/}
+				<Experience />
+				<Footer />
 			</main>
 		</div>
 	);
