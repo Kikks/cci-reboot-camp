@@ -3,9 +3,9 @@ const Experience = () => {
   return (
     <>
       <section className="experience-bg relative w-full p-[30px] sm:p-[100px] ">
-        <div className="rounded-xl bg-[#FFF] p-[25px] sm:p-[100px]">
+        <div className="rounded-xl bg-[#FFF] p-[25px] sm:p-[80px]">
           <div className="mb-10">
-            <h1 className="experience-title text-[40px] sm:text-[70px]">
+            <h1 className="experience-title text-[40px] text-center sm:text-[60px]">
               The Rich Experience
             </h1>
           </div>
@@ -47,7 +47,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="mt-10 grid justify-between md:flex">
+          <div className="mt-5 grid justify-between md:flex">
             <div className="w-100% sm-w-[25%] mt-5 flex">
               <img
                 className="relative top-2 h-[30px] w-[30px]"
@@ -90,7 +90,7 @@ const Experience = () => {
             alt=""
           />
           <img
-            className="absolute bottom-[200px] right-[90px]"
+            className="absolute bottom-[300px] right-[20px] sm:right-[90px] sm:bottom-[200px]"
             src="/images/curly_2.png"
             alt=""
           />
