@@ -1,0 +1,44 @@
+.gallery-gradient {
+  background-image: url("../../../public/images/gallery-gradient.png");
+  height: max-content;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 4em;
+}
+
+.grid-block {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 1em;
+  gap: 0.8em;
+}
+
+.play {
+  position: absolute;
+  bottom: 1.5em;
+  right: 1.5em;
+  width: 39.73px;
+  height: 39.73px;
+  background: linear-gradient(
+    156.92deg,
+    rgba(255, 255, 255, 0.5) -12.17%,
+    rgba(255, 255, 255, 0.2) 85.06%
+  );
+  box-shadow: 0px 2.20713px 13.2428px -0.551783px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2.75891px);
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .gallery-gradient {
+    background-image: url("../../../public/images/gallery-gradient-big.png");
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .grid-block {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1em;
+    margin-top: 0;
+  }
+}

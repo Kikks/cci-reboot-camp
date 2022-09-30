@@ -1,0 +1,17 @@
+.text-gradient {
+  background-color: #21409a;
+  background: linear-gradient(86deg, #21409a 6.89%, #ed1c24 50.51%, #f36f21 70.92%, #2abaa7 99.53%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-gradient {
+    -webkit-text-fill-color: #21409a;
+    -moz-text-fill-color: #21409a;
+  }
+}
