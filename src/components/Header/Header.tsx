@@ -31,7 +31,7 @@ const Header = () => {
 					</figure>
 
 					<a
-						href='/'
+						href='https://7airjukry19.typeform.com/RebootCamp2022'
 						className='hidden items-center gap-2 text-xl font-medium text-primary-main md:flex lg:mt-4'
 					>
 						<span>Register Now</span>
@@ -87,13 +87,15 @@ const Header = () => {
 					</h3>
 
 					<div className='z-50'>
-						<button className='flex w-full items-center gap-2 rounded-full bg-primary-main py-3 px-7 font-medium text-white md:w-auto md:text-xl'>
-							<span>Register & Book Accomodation</span>
-							<Icon
-								icon='akar-icons:arrow-right'
-								className='text-xl md:text-3xl'
-							/>
-						</button>
+						<a href='https://7airjukry19.typeform.com/RebootCamp2022'>
+							<button className='flex w-full items-center gap-2 rounded-full bg-primary-main py-3 px-7 font-medium text-white md:w-auto md:text-xl'>
+								<span>Register & Book Accomodation</span>
+								<Icon
+									icon='akar-icons:arrow-right'
+									className='text-xl md:text-3xl'
+								/>
+							</button>
+						</a>
 					</div>
 				</div>
 
@@ -140,7 +142,7 @@ const Header = () => {
 					/>
 
 					<a
-						href='/'
+						href='https://7airjukry19.typeform.com/RebootCamp2022'
 						className='flex w-full items-center justify-center gap-2 rounded-xl bg-white py-5'
 					>
 						<span>Register & Book Accommodation</span>
