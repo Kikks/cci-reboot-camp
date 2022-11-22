@@ -37,11 +37,7 @@ const Register = () => {
 								{Star6}
 							</span>
 						</div>
-						<p className='md:mt-2'>
-							<span className='font-bold'>P:S-</span> After registering and
-							booking your accommodation you will be granted FREE transportation
-							from your campus to the venue!
-						</p>
+						
 					</div>
 
 					<div className='flex items-center justify-center'>

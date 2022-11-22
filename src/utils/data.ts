@@ -29,7 +29,7 @@ export const shopData = [
 	},
 	{
 		id: 5,
-		link: "https://selar.co/qdie",
+		link: "https://selar.co/n6ma",
 		image: "/images/Rectangle 3467542.svg",
 		name: "RC Hoodie (A)",
 		price: "₦ 15,000.00",
@@ -38,7 +38,7 @@ export const shopData = [
 		id: 6,
 		link: "https://selar.co/qdie",
 		image: "/images/Rectangle 3467543.svg",
-		name: "RC Hoodie (A)",
+		name: "RC Hoodie (B)",
 		price: "₦ 15,000.00",
 	},
 	{

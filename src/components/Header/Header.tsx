@@ -33,10 +33,10 @@ const Header = () => {
 						/>
 					</figure>
 					<div className="  relative">
-						<div className="md:absolute flex gap-2 items-center md:right-5 lg:right-40 ">
+						<div className="  lg:absolute right-64 ">
 	
 							<Link to='/shop'>
-								<p className="whitespace-nowrap text-xs">Shop Reboot Camp Merch</p>
+								<p className="whitespace-nowrap text-md md:text-xl">Shop Reboot Camp Merch</p>
 							</Link>
 						</div>
 					</div>
