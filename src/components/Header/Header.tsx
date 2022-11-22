@@ -32,13 +32,11 @@ const Header = () => {
 							className='undraggable h-full w-full object-contain'
 						/>
 					</figure>
-					<div className=" relative">
-						<div className="absolute flex gap-2 items-center right-40 ">
-							<p>About</p>
-							<p>Culture</p>
-							<p>Contact</p>
+					<div className="  relative">
+						<div className="md:absolute flex gap-2 items-center md:right-5 lg:right-40 ">
+	
 							<Link to='/shop'>
-								<p className="whitespace-nowrap">Shop Merch</p>
+								<p className="whitespace-nowrap text-xs">Shop Reboot Camp Merch</p>
 							</Link>
 						</div>
 					</div>

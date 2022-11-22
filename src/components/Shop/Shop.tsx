@@ -27,8 +27,8 @@ const Shop = () => {
 								className="block w-full"
 							/>
 							<div className="overlay flex items-center justify-center rounded-md">
-								<a href={item.link}>
-									<div className="flex cursor-pointer   items-center justify-center gap-4 rounded-full border border-primary-main bg-white px-4 py-2 md:h-[45px] md:w-[150px]">
+								<a  href={item.link}>
+									<div className="flex cursor-pointer mt-[5em]  xl:mt-[10em]     items-center justify-center gap-4 rounded-full border border-primary-main bg-white px-4 py-2 md:h-[43px] md:w-[150px]">
 										<p className="text-lg text-primary-main">
 											Buy Now
 										</p>
