@@ -4,6 +4,9 @@ import { Icon } from "@iconify/react";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import { useState } from "react";
 
+import { Link } from 'react-router-dom'
+
+
 const Header = () => {
 	const [showMenu, setShowMenu] = useState(false);
 	const smallScreen = useMediaQuery("(max-width: 600px)");
@@ -29,6 +32,16 @@ const Header = () => {
 							className='undraggable h-full w-full object-contain'
 						/>
 					</figure>
+					<div className=" relative">
+						<div className="absolute flex gap-2 items-center right-40 ">
+							<p>About</p>
+							<p>Culture</p>
+							<p>Contact</p>
+							<Link to='/shop'>
+								<p className="whitespace-nowrap">Shop Merch</p>
+							</Link>
+						</div>
+					</div>
 
 					<a
 						href='https://7airjukry19.typeform.com/RebootCamp2022'
