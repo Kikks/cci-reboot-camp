@@ -1,22 +1,18 @@
-// components
-import Countdown from "./components/Countdown";
-import Gallery from "./components/Gallery";
-import Header from "./components/Header";
-import Register from "./components/Register/Register";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
-
+// 
+import { Routes, Route } from 'react-router-dom'
+import Home from "./pages/Home/Home";
+import ShopPage from './pages/Shop';
 
 function App() {
   return (
     <div className="w-full">
       <main className="mx-auto w-full">
-        <Header />
-        <Countdown />
-        <Gallery />
-        <Register />
-        <Experience />
-				<Footer />
+
+        <Routes>
+          <Route element={<Home />} path='/' />
+
+          <Route element={<ShopPage />} path='/shop' />
+        </Routes>
       </main>
     </div>
   );
