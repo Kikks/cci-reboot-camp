@@ -42,7 +42,7 @@ const Register = () => {
 
 					<div className='flex items-center justify-center'>
 						<a
-							href='https://7airjukry19.typeform.com/RebootCamp2022'
+							href='https://rebootcamp2022.typeform.com/RebootCamp2022'
 							className='inline'
 						>
 							<button className='mt-6 flex w-full items-center justify-center rounded-full bg-primary-main py-3 px-7 text-[18px] font-medium text-white md:mx-auto md:w-auto md:text-[20px] lg:text-[28px]'>
