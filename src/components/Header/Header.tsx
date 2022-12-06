@@ -33,11 +33,14 @@ const Header = () => {
 						/>
 					</figure>
 					<div className="  relative">
-						<div className="  lg:absolute right-64 ">
-	
+						<div className="  lg:absolute right-72 flex gap-4 items-center ">
+							<a href="https://ccing.org/rcql/" className='bg-primary-main p-2 rounded-full whitespace-nowrap text-white'>
+								<p>Quick Links</p>
+							</a>
 							<Link to='/shop'>
-								<p className="whitespace-nowrap text-md md:text-xl">Shop Reboot Camp Merch</p>
+								<p className="whitespace-nowrap text-md text-primary-main md:text-xl">Shop  Merch</p>
 							</Link>
+							
 						</div>
 					</div>
 
