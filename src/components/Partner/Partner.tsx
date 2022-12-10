@@ -13,12 +13,15 @@ const Partner = () => {
 					the venue, finding routes or transportation to the venue,
 					confirming your hotel booking or finding banks, ATMs or
 					restaurants close to the venue.
-                </p>
-                <div className="flex justify-center items-center my-5">
-                    <button className="flex w-full justify-center items-center gap-2 rounded-full bg-primary-main py-3 px-7 font-medium text-white md:w-auto md:text-xl">
-                        <span>Partner With us</span>
-                    </button>
-                </div>
+				</p>
+				<a href='https://ccing.org/rc-partner/' target="_blank" rel="noopener noreferrer">
+					<div className="flex justify-center items-center my-5">
+						<button className="flex w-full justify-center items-center gap-2 rounded-full bg-primary-main py-3 px-7 font-medium text-white md:w-auto md:text-xl">
+							<span>Partner With us</span>
+						</button>
+					</div>
+				</a>
+                
 			</div>
 		</div>
 	);
