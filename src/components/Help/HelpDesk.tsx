@@ -2,12 +2,12 @@ import React from "react";
 
 const HelpDesk = () => {
 	return (
-		<div className="w-full ">
+		<div className="w-full p-[30px] sm:px-[100px] ">
 			<h1 className="my-6 text-center text-3xl font-bold text-primary-main md:ml-auto lg:mb-16 ">
 				Help Desk
 			</h1>
-			<div className="items-center justify-around md:flex">
-				<div className="mb-6 h-[400px]  w-full bg-[#f2f2f2] py-8 px-10 text-black md:mb-0 md:w-[350px] lg:w-[650px] ">
+			<div className="items-center justify-between md:flex">
+				<div className="mb-6 h-[400px]  w-full bg-[#f2f2f2] py-8 px-10 text-black md:mb-0 md:w-[300px] lg:w-[600px] ">
 					<div className="mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-full bg-black opacity-100">
 						<img src="/images/report.png" alt="report" />
 					</div>
@@ -20,7 +20,7 @@ const HelpDesk = () => {
 						<span>Report</span>
 					</button>
 				</div>
-				<div className="h-[400px]  w-full bg-[#f2f2f2] py-8 px-10 text-black md:w-[350px] lg:w-[650px] ">
+				<div className="h-[400px]  w-full bg-[#f2f2f2] py-8 px-10 text-black md:w-[300px] lg:w-[600px] ">
 					<div className="mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-full bg-black opacity-100">
 						<img src="/images/hydra.png" alt="report" />
 					</div>
