@@ -36,6 +36,8 @@ const Header = () => {
 							<a
 								href="https://ccing.org/rcql/"
 								className="whitespace-nowrap rounded-full bg-primary-main p-2 text-white"
+								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<p>Quick Links</p>
 							</a>
@@ -66,18 +68,19 @@ const Header = () => {
 					</button>
 				</nav>
 
-				<div className="gradient-bg z-20 mx-5 mt-10 h-[550px] min-h-[550px] w-[80%] bg-orange-400 md:z-10 md:mx-0 md:mt-0 md:h-[25vw] md:max-h-[500px] md:min-h-[360px] md:-[w-40%] lg:w-[87%]">
-					<div className="z-20 flex h-full flex-col justify-between gap-10  md:h-auto md:min-h-0 md:justify-center  md:px-10 lg:px-0 mr-16 xl:px-24">
-						
+				<div className="gradient-bg md:-[w-40%] z-20 mx-5 mt-10 h-[550px] min-h-[550px] w-[80%] bg-orange-400 md:z-10 md:mx-0 md:mt-0 md:h-[25vw] md:max-h-[500px] md:min-h-[360px] lg:w-[87%]">
+					<div className="z-20 mr-16 flex h-full flex-col justify-between  gap-10 md:h-auto md:min-h-0  md:justify-center md:px-10 lg:px-0 xl:px-24">
 						<figure className="z-[999] mr-20 md:mr-0 ">
-							<img src='/images/contagious.png' alt='contagious' />.
-
+							<img
+								src="/images/contagious.png"
+								alt="contagious"
+							/>
+							.
 						</figure>
 						{/* <figure>
 							<img src='/images/galaxy.png' alt='contagious' />.
 
 						</figure> */}
-					
 					</div>
 
 					<span className="absolute top-[14%] right-[15%] z-[9999] text-right text-[5.5rem] leading-[4.5rem] text-secondary-main sm:top-[14%] sm:right-[17%] md:top-[13%] md:right-[12%] md:text-[8rem] md:leading-[6rem] lg:top-[13.5%] lg:right-[12%] lg:text-[10.5rem] lg:leading-[8rem]">
@@ -101,7 +104,7 @@ const Header = () => {
 					</h3>
 
 					<div className="z-50">
-						<a href="https://youtube.com/@CelebrationChurchNG">
+						<a href="https://youtube.com/@CelebrationChurchNG" target="_blank" rel="noopener noreferrer">
 							<button className="flex w-full items-center gap-2 rounded-full bg-primary-main py-3 px-7 font-medium text-white md:w-auto md:text-xl">
 								<span>Join us Live</span>
 								<Icon
@@ -125,7 +128,7 @@ const Header = () => {
 					/>
 				</figure>
 
-				<figure className="absolute z-[800] top-[15%] left-[6%]   aspect-[407/782] xl:aspect-[407/567]  max-w-[350px] md:top-[7.5%] md:left-[43%] md:w-[30vw] md:max-w-[360px] xl:left-[40.5%] xl:w-[35%] xl:max-w-[700px]">
+				<figure className="absolute top-[15%] left-[6%] z-[800]   aspect-[407/782] max-w-[350px]  md:top-[7.5%] md:left-[43%] md:w-[30vw] md:max-w-[360px] xl:left-[40.5%] xl:aspect-[407/567] xl:w-[35%] xl:max-w-[700px]">
 					<img
 						src={
 							mediumScreen
