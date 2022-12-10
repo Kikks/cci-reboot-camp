@@ -6,7 +6,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import './Merchandise.css'
 const Merchandise = () => {
     return (
-        <section className='w-full p-[30px] sm:p-[100px]'>
+        <section className='w-full p-[30px] sm:px-[100px]'>
             <div className=' flex items-center lg:w-[50%] md:w-[60%] '>
                 <div className='lg:ml-20 ml-10 mb-6'>
                     <img className='ml-14' src='/images/Vector 27.png' alt='star' />
